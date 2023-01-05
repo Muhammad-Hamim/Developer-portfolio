@@ -98,6 +98,19 @@ nav ul li a {
     font-size: 18px;
 }
 
+.btn-cv:hover {
+    color: #FD6E0A;
+    background-color: transparent;
+    border: 2px solid #FD6E0A;
+    transition: 0.5s;
+}
+
+.btn-contact:hover {
+    color: #ffffff;
+    background-color: #FD6E0A;
+    transition: 0.5s;
+}
+
 .btn-contact {
     padding: 12px 55px;
     background-color: transparent;
@@ -252,11 +265,96 @@ main {
     line-height: 28px;
     color: #757575;
 }
+
 .education,
-.experience{
+.experience {
     margin-bottom: 60px;
 }
-.resume-section-btn{
+
+.resume-section-btn {
     display: flex;
     justify-content: center;
+}
+
+.resume-section-btn button:hover {
+    color: #FD6E0A;
+    background-color: transparent;
+    border: 2px solid #FD6E0A;
+    transition: 0.5s;
+}
+
+/* footer-section */
+footer {
+    background: #FFF8F3;
+    overflow: hidden;
+}
+
+.footer-container {
+    max-width: 1140px;
+    margin: 130px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contact-info {
+    width: 565px;
+}
+
+.contact-title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.contact-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+}
+
+.contact-form {
+    width: 462px;
+}
+
+.contact-form-input input {
+    width: 100%;
+    padding: 15px 20px;
+    background-color: white;
+    color: #474747;
+    font-size: 18px;
+    margin-bottom: 24px;
+    border: none;
+    outline: none;
+}
+
+.contact-form-input textarea {
+    width: 100%;
+    padding: 15px 20px;
+    background-color: white;
+    color: #474747;
+    font-size: 18px;
+    margin-bottom: 24px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.contact-form-input input[type="submit"] {
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    border: 2px solid #FD6E0A;
+    cursor: pointer;
+}
+
+.contact-form-input input[type="submit"]:hover {
+    color: #FD6E0A;
+    background-color: transparent;
+    border: 2px solid #FD6E0A;
+    transition: 0.5s;
 }
