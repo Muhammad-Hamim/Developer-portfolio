@@ -368,6 +368,11 @@ footer {
     border: 2px solid #FD6E0A;
     transition: 0.5s;
 }
+.contact-form-input input:focus,
+.contact-form-input textarea:focus{
+    box-shadow: 0px 0px 5px 0px #fd6f0a;
+}
+
 
 .contact-info i {
     text-decoration: none;
