@@ -109,11 +109,19 @@ nav ul li a {
     font-size: 18px;
 }
 
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /* about-section */
 
 .about-section {
-    margin: 130px 230px;
+    margin: 130px 0;
     background-color: white;
+    border-radius: 10px;
+
 }
 
 .about-container {
@@ -128,6 +136,7 @@ nav ul li a {
     line-height: 48px;
     text-align: center;
     color: #181818;
+    margin-bottom: 30px;
 }
 
 .section-description {
@@ -135,4 +144,63 @@ nav ul li a {
     font-size: 18px;
     line-height: 30px;
     color: #757575;
+    margin-bottom: 30px;
+    text-align: center;
 }
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.info-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #474747
+}
+
+.info-description {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #474747
+}
+
+.skill-container {
+    margin-top: 50px;
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    width: 267px;
+    height: 377px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 31px;
+}
+
+.skill img {
+    width: 44px;
+    height: 44px;
+    margin-bottom: 30px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: left;
+}
+
+.skill-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+/* resume-section */
