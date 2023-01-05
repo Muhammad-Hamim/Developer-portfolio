@@ -194,6 +194,12 @@ main {
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
     padding: 31px;
+    transition: 0.5s;
+}
+
+.skill:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .skill img {
@@ -224,13 +230,14 @@ main {
 .resume-container {
     display: flex;
     justify-content: space-between;
+    gap: 24px;
 }
 
 .resume-education,
 .resume-experience {
-    padding: 100px 50px 0px;
+    margin-top: 115px;
+    margin-bottom: 40px;
 }
-
 .resume-education>h3,
 .resume-experience>h3 {
     font-weight: 700;
@@ -268,7 +275,7 @@ main {
 
 .education,
 .experience {
-    margin-bottom: 60px;
+    margin: 30px 0;
 }
 
 .resume-section-btn {
@@ -360,4 +367,16 @@ footer {
     background-color: transparent;
     border: 2px solid #FD6E0A;
     transition: 0.5s;
+}
+
+.contact-info i {
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-right: 24px;
+    color: #FD6E0A;
+    transition: 0.4s;
+}
+.contact-info i:hover{
+    color: #181818;
 }
