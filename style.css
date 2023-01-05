@@ -204,3 +204,55 @@ main {
 }
 
 /* resume-section */
+.resume-section {
+    margin-top: 130px;
+}
+
+.resume-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.resume-education,
+.resume-experience {
+    padding: 100px 50px;
+}
+
+.resume-education>h3,
+.resume-experience>h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.education h3,
+.experience h3 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.education-s-description,
+.experience-s-description {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.education-description,
+.experience-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+.education,
+.experience{
+    margin-bottom: 60px;
+}
